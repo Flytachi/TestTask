@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+<?php
+// Версия PHP 7.4
+if (PHP_VERSION == 7.4) {
+    
+    require 'extra/Core/Command/__component.php';
+    require 'extra/Core/Command/__cfg.php';
+    require 'extra/defines.php';
+    new __Component("init");
+    new __Cfg("init");
+
+}else {
+    echo "\033[32m"." Пожалуйста используйте PHP версии => 7.4\n";
+    echo "\033[33m"." Текущая версия PHP => ".PHP_VERSION."\n";
+}
+
+?>

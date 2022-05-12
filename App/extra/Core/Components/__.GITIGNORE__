@@ -1,0 +1,19 @@
+## Warframe support
+/backup
+/node_modules
+/session
+/storage
+/tests
+/tools/libs/*
+!/tools/libs/*.php
+/tools/nginx.conf
+/setting.ini
+/core.x*
+/tools/.cfg
+/.key
+
+## IDE support
+*.buildpath
+*.project
+/.settings
+/.idea
